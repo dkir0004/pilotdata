@@ -1,0 +1,18 @@
+---
+title: "project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#read in all the csvs in parent directory
+temp = list.files(pattern="*.csv")
+pilotdata = lapply(temp, read.delim)
+```
+
+```{r}
+
+```
